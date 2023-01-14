@@ -1,0 +1,49 @@
+p, li {
+    color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: fit-content;
+    gap: 1rem;
+}
+
+.card {
+    width: 24rem;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.icon-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.icon {
+    padding-top: 1rem;
+}
+
+@media (min-width: 1280px) {
+    .card {
+        width: 30%;
+        text-align: center;
+        background-color: #FFFFFF;
+    }
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+li {
+    font-size: 1.2rem;
+}

@@ -1,0 +1,19 @@
+.navbar {
+    justify-content: center;
+    background-color: #0B2840;
+    opacity: 0.3;
+}
+
+.navbar:hover {
+    opacity: 1;
+}
+
+.nav-pills {
+    --bs-nav-pills-link-active-color: #FFFFFF;
+    --bs-nav-pills-link-active-bg: #145DA0;
+}
+
+.nav {
+    --bs-nav-link-color: #FFFFFF;
+    --bs-nav-link-hover-color: #B1D4E0;
+}

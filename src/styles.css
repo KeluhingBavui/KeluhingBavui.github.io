@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~animate.css/animate.min';
+
+h1,h2,h3 {
+    color: #B1D4E0;
+}
+
+p, caption, li {
+    color: #FFFFFF;
+}
+
+body {
+    background-color: #0C2D48;
+}
+
+.section {
+    display: flex;
+    height: fit-content;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.highlighted {
+    color: #fce38a;
+}
