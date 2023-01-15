@@ -32,3 +32,7 @@
 .name-header {
     font-size: 4rem;
 }
+
+p {
+    font-family: 'IBM Plex Mono', 'Poppins', sans-serif;
+}

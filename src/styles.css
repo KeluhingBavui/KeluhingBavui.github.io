@@ -1,11 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~animate.css/animate.min';
 
-h1,h2,h3 {
+h1,h2,h3,h4 {
+    font-family: 'Palanquin Dark', 'Roboto', sans-serif;
     color: #B1D4E0;
 }
 
 p, caption, li {
+    font-family: 'Poppins', 'Roboto', sans-serif;
     color: #FFFFFF;
 }
 
