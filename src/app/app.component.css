@@ -17,3 +17,10 @@
     --bs-nav-link-color: #FFFFFF;
     --bs-nav-link-hover-color: #B1D4E0;
 }
+
+/*media query for mobile devices*/
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+}
