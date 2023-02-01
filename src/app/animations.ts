@@ -4,7 +4,7 @@ export let fade = trigger('fade', [
   state('void', style({opacity: 0})),
   transition('void <=> *', [
     style({ opacity: 0 }),
-    animate(2000)
+    animate(1000)
   ])
 ])
 
@@ -15,8 +15,8 @@ export let scrollAnimation = trigger('scrollAnimation', [
   })),
   state('hide',   style({
     opacity: 0,
-    transform: "translateY(50%)"
+    transform: "translateY(20%)"
   })),
-  transition('show => hide', animate('750ms ease-out')),
-  transition('hide => show', animate('750ms ease-in'))
+  transition('show => hide', animate('500ms ease-out')),
+  transition('hide => show', animate('500ms ease-in'))
 ]);
